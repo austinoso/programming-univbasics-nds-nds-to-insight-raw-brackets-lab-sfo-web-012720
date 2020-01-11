@@ -6,7 +6,11 @@ def directors_totals(nds)
   # that you know what you're starting with!
 
   row_index = 0
-  while
+
+  while row_index < nds.length do
+    column_index = 0
+
+  end
 
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
