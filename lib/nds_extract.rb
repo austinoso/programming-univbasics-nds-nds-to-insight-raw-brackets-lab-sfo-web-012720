@@ -21,7 +21,7 @@ def directors_totals(nds)
 
     end
 
-    result[director_index][:name] = total_gross
+    nds[director_index][:name] = total_gross
     director_index += 1
 
   end
