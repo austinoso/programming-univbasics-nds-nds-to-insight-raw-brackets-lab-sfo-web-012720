@@ -9,7 +9,7 @@ def directors_totals(nds)
 
   while director_index < nds.length do
     movies_index = 0
-    while column_index < nds[File.dirname(__FILE__)_index]
+    while column_index < nds[director_index]
   end
 
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
