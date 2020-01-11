@@ -26,5 +26,5 @@ def directors_totals(nds)
 
   end
 
-  puts result
+  puts pp result
 end
