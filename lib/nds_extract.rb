@@ -9,7 +9,7 @@ def directors_totals(nds)
 
   while director_index < nds.length do
     movies_index = 0
-    while movies_index < nds[director_index]
+    while movies_index < nds[director_index].length
   end
 
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
