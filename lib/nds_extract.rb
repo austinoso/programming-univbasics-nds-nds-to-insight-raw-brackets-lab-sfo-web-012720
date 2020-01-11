@@ -11,16 +11,17 @@ def directors_totals(nds)
 
     movies_index = 0
     total_gross = 0
-    
+
     while movies_index < nds[director_index].length do
 
-      total_gross += nds[director_index][movies_index][worldwide_gross]
+      total_gross += nds[director_index][movies_index][:worldwide_gross]
       movies_index += 1
 
     end
 
-
+    result[director_index][name]
     director_index += 1
+
   end
 
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
